@@ -23,8 +23,8 @@ const style = {
     display: "flex",
     flexDirection: { xs: "column", sm: "column", md: "row", lg: "row" },
     alignItems: "center",
-    gap: { xs: "1px", sm: "1px", md: "120px", lg: "120px" },
-    height: { xs: "100%", sm: "100%", md: "670px", lg: "670px" },
+    gap: { xs: "1px", sm: "1px", md: "0px", lg: "0px" },
+    minHeight:"100vh",
   },
 
   Box2: {},
