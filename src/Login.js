@@ -53,12 +53,14 @@ const style = {
     display: "flex",
     flexDirection: "column",
     alignItems: { xs: "center", sm: "normal", md: "normal", lg: "normal" },
+    padding:"10px"
   },
 
   Box4: {
     display: "flex",
     flexDirection: "column",
-    margin: "20px 0px 20px 50px ",
+    alignItems:"center",
+    marginBottom:"15px"
   },
 
   text1: {
@@ -219,7 +221,7 @@ class Login extends Component {
     } catch (error) {
       console.error("Error:", error);
     }
-  };
+  }
 
   render() {
     return (
@@ -231,7 +233,7 @@ class Login extends Component {
           <Box sx={style.Box3}>
             <Box sx={style.Box4}>
               <Typography sx={style.text1}>Welcome to</Typography>
-              <Typography sx={style.text2}>Design School </Typography>
+              <Typography sx={style.text2}>ShopZone</Typography>
             </Box>
             <Box sx={style.Box5}>
               <Box sx={style.Box6}>
